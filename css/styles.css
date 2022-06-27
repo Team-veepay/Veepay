@@ -214,6 +214,10 @@ footer img {
         font-size: 2rem;
     }
 
+    main img {
+        display: none;
+     }
+
     main p {
         font-size: 1.2rem;
     }
@@ -233,8 +237,7 @@ footer img {
 
 @media (max-width: 600px) {
     main img {
-        height: auto;
-        margin-top: 9rem;
+       display: none;
     }
 
     main section {
@@ -257,7 +260,6 @@ footer img {
     }
 
     main {
-        text-align: center;
         display: block;
     }
 
@@ -285,5 +287,9 @@ footer img {
         width: 7rem;
         height: 5rem;
         margin: 0;
+    }
+
+    main{
+        text-align: center;
     }
 }
